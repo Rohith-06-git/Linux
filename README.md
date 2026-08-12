@@ -9,3 +9,7 @@ My Linux learning journey for Data Engineering.
 - Processes
 - Networking
 - Shell scripting
+
+## Learning Approach
+
+Learn → Practice → Document → Commit
