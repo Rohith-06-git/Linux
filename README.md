@@ -13,3 +13,7 @@ My Linux learning journey for Data Engineering.
 ## Learning Approach
 
 Learn → Practice → Document → Commit
+
+## Day 1
+
+Started learning Linux basics and terminal commands.
