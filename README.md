@@ -3,6 +3,7 @@
 My Linux learning journey for Data Engineering.
 
 ## Topics
+
 - Linux basics
 - File system
 - Permissions
@@ -14,14 +15,64 @@ My Linux learning journey for Data Engineering.
 
 Learn → Practice → Document → Commit
 
+---
+
 ## Day 1
 
 Started learning Linux basics and terminal commands.
 
-## Linux Basics Learned
+### Navigation Commands
 
-- `pwd` — print current directory
+- `pwd` — print current working directory
 - `ls` — list files and directories
 - `cd` — change directory
+
+### File and Directory Commands
+
 - `mkdir` — create a directory
 - `touch` — create a file
+- `rm` — remove a file
+- `rmdir` — remove an empty directory
+
+### File Operations
+
+- `cp` — copy a file
+- `mv` — move or rename a file
+- `cat` — display file contents
+- `echo` — print text
+
+### Redirection
+
+- `>` — write or overwrite file contents
+- `>>` — append content to a file
+
+### File Viewing
+
+- `head` — display the beginning of a file
+- `tail` — display the end of a file
+
+## Practice
+
+```bash
+pwd
+ls
+cd ..
+
+mkdir test
+touch file.txt
+rm file.txt
+rmdir test
+
+touch file1.txt
+echo "Hello Linux" > file1.txt
+cat file1.txt
+
+cp file1.txt file2.txt
+mv file2.txt renamed.txt
+
+echo "Second line" >> renamed.txt
+
+head renamed.txt
+tail renamed.txt
+
+rm file1.txt renamed.txt
