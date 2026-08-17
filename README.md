@@ -76,3 +76,26 @@ head renamed.txt
 tail renamed.txt
 
 rm file1.txt renamed.txt
+
+## Day 2 — File Permissions
+
+Linux permissions control who can read, write, or execute a file.
+
+### Permission Commands
+
+- `ls -l` — view file permissions
+- `chmod` — change file permissions
+- `chown` — change file ownership
+
+### Permission Types
+
+- `r` — read
+- `w` — write
+- `x` — execute
+
+### Example
+
+```bash
+ls -l
+chmod +x script.sh
+chmod 644 file.txt
