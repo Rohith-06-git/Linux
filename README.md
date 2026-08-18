@@ -77,6 +77,8 @@ tail renamed.txt
 
 rm file1.txt renamed.txt
 
+```
+
 ## Day 2 — File Permissions
 
 Linux permissions control who can read, write, or execute a file.
