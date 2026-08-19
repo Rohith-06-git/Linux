@@ -101,3 +101,21 @@ Linux permissions control who can read, write, or execute a file.
 ls -l
 chmod +x script.sh
 chmod 644 file.txt
+
+```
+## Day 3 — Processes
+
+A process is a running instance of a program.
+
+### Process Commands
+
+- `ps` — show running processes
+- `top` — monitor running processes
+- `kill` — terminate a process
+
+### Practice
+
+```bash
+ps
+ps aux
+top
