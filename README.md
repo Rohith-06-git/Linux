@@ -17,7 +17,17 @@ Learn → Practice → Document → Commit
 
 ---
 
-## Day 1
+## Day 0 — Linux Fundamentals
+
+- Linux is built around the Linux kernel.
+- Ubuntu is a Linux distribution.
+- Bash is a shell.
+- The terminal is an interface used to interact with the shell.
+- The shell interprets commands and interacts with the operating system.
+
+---
+
+## Day 1 — Linux Basics
 
 Started learning Linux basics and terminal commands.
 
@@ -76,46 +86,3 @@ head renamed.txt
 tail renamed.txt
 
 rm file1.txt renamed.txt
-
-```
-
-## Day 2 — File Permissions
-
-Linux permissions control who can read, write, or execute a file.
-
-### Permission Commands
-
-- `ls -l` — view file permissions
-- `chmod` — change file permissions
-- `chown` — change file ownership
-
-### Permission Types
-
-- `r` — read
-- `w` — write
-- `x` — execute
-
-### Example
-
-```bash
-ls -l
-chmod +x script.sh
-chmod 644 file.txt
-
-```
-## Day 3 — Processes
-
-A process is a running instance of a program.
-
-### Process Commands
-
-- `ps` — show running processes
-- `top` — monitor running processes
-- `kill` — terminate a process
-
-### Practice
-
-```bash
-ps
-ps aux
-top
