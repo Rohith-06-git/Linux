@@ -61,6 +61,27 @@ Started learning Linux basics and terminal commands.
 - `head` — display the beginning of a file
 - `tail` — display the end of a file
 
+### Useful Concepts
+
+- `.` — current directory
+- `..` — parent directory
+- `~` — home directory
+- `/` — root directory
+
+### Command Structure
+
+Most Linux commands follow this pattern:
+
+`command [options] [arguments]`
+
+Example:
+
+`ls -l /home`
+
+- `ls` — command
+- `-l` — option
+- `/home` — argument
+
 ## Practice
 
 ```bash
