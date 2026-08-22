@@ -107,3 +107,5 @@ head renamed.txt
 tail renamed.txt
 
 rm file1.txt renamed.txt
+
+```
