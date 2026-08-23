@@ -108,4 +108,17 @@ tail renamed.txt
 
 rm file1.txt renamed.txt
 
+### Getting Help
+
+Linux provides built-in help for commands.
+
+- `man` — opens the manual page for a command
+- `command --help` — shows basic usage and options
+
+Examples:
+
+```bash
+man ls
+ls --help
+
 ```
