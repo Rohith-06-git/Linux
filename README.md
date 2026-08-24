@@ -118,6 +118,7 @@ Linux provides built-in help for commands.
 Examples:
 
 ```bash
+
 man ls
 ls --help
 
