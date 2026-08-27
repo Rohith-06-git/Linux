@@ -123,3 +123,14 @@ man ls
 ls --help
 
 ```
+### Command History
+
+- `history` — shows previously executed commands
+- `clear` — clears the terminal screen
+- `Ctrl + L` — clears the terminal screen
+
+Examples:
+
+```bash
+history
+clear
