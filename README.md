@@ -123,3 +123,16 @@ man ls
 ls --help
 
 ```
+### Linux Architecture
+
+Linux can be understood in layers:
+
+- **Hardware** — physical components such as CPU, RAM, and storage
+- **Kernel** — manages hardware and system resources
+- **Shell** — interprets commands from the user
+- **Utilities** — provide common system commands
+- **Applications** — programs used by the user
+
+Basic flow:
+
+User → Shell → Kernel → Hardware
