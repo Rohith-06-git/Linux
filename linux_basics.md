@@ -43,3 +43,12 @@ Linux permissions control who can read, write, or execute a file.
 ls -l test.txt
 chmod 644 test.txt
 chmod 600 test.txt
+
+## Nested Directories
+
+The `mkdir -p` command can create directories and subdirectories at once.
+
+### Example
+
+```bash
+mkdir -p my/folder/one
