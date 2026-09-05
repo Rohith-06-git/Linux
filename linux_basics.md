@@ -75,3 +75,14 @@ Linux allows multiple users to have separate accounts and permissions.
 
 ```bash
 sudo adduser rohith
+
+## Modifying Users
+
+The `usermod` command is used to modify an existing Linux user account.
+
+### Adding a User to the Sudo Group
+
+A normal user can be given administrative privileges by adding them to the `sudo` group.
+
+```bash
+sudo usermod -aG sudo rohith
