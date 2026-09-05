@@ -59,3 +59,19 @@ chmod 600 test.txt
 
 ```bash
 vim ./file.txt
+
+## User Management
+
+Linux allows multiple users to have separate accounts and permissions.
+
+### User Commands
+
+- `whoami` — shows the current logged-in user
+- `adduser` — creates a new user
+- `passwd` — sets or changes a user's password
+- `su` — switches to another user
+
+### Creating a User
+
+```bash
+sudo adduser rohith
