@@ -49,3 +49,13 @@ ls -l test.txt
 chmod 644 test.txt
 
 chmod 600 test.txt
+
+## Relative Paths
+
+- `./` represents the current directory.
+- `../` represents the parent directory.
+
+### Using `./` and `../` with Files
+
+```bash
+vim ./file.txt
