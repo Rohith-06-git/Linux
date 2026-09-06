@@ -109,10 +109,25 @@ sudo apt install apache2
 sudo apt update
 sudo apt upgrade
 
-### Nginx
+## Nginx
 
-Nginx is a web server and reverse proxy commonly used to serve web applications and handle HTTP requests.Nginx maintains logs that help us understand what is happening with the web server and troubleshoot problems.
+Nginx is a web server commonly used to handle HTTP requests and serve web applications.
 
+It can also work as a reverse proxy between clients and backend applications.
+
+Nginx maintains logs that can be useful for troubleshooting and debugging.
+
+Important log files include:
+
+- `/var/log/nginx/access.log` — records incoming requests.
+- `/var/log/nginx/error.log` — records errors and problems.
+
+### Key Learning
+
+- Nginx is commonly used as a web server and reverse proxy.
+- Nginx logs can help identify problems and troubleshoot issues.
+- `access.log` contains request information.
+- `error.log` contains error information.
 
 ### Installing Nginx
 
