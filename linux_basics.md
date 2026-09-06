@@ -86,3 +86,15 @@ A normal user can be given administrative privileges by adding them to the `sudo
 
 ```bash
 sudo usermod -aG sudo rohith
+
+## Package Management and Services
+
+Linux uses package managers to install and manage software.
+
+### Installing Apache2
+
+Apache2 is a web server that can be installed using `apt`.
+
+```bash
+sudo apt update
+sudo apt install apache2
