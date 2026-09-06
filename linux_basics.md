@@ -108,3 +108,13 @@ sudo apt install apache2
 ```bash
 sudo apt update
 sudo apt upgrade
+
+### Nginx
+
+Nginx is a web server and reverse proxy commonly used to serve web applications and handle HTTP requests.Nginx maintains logs that help us understand what is happening with the web server and troubleshoot problems.
+
+
+### Installing Nginx
+
+```bash
+sudo apt install nginx
