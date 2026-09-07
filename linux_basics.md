@@ -133,3 +133,14 @@ Important log files include:
 
 ```bash
 sudo apt install nginx
+
+## Groups
+
+Linux groups are used to organize users and manage permissions.
+
+A user can belong to multiple groups. Groups make it easier to give the same permissions to multiple users.
+
+### Creating a Group
+
+```bash
+sudo groupadd developers
