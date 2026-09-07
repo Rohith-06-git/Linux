@@ -144,3 +144,12 @@ A user can belong to multiple groups. Groups make it easier to give the same per
 
 ```bash
 sudo groupadd developers
+
+### Changing Permissions with chmod
+
+Permissions can be changed using symbolic notation with `chmod`.
+
+The basic structure is:
+
+```bash
+chmod [who][operation][permission] file
