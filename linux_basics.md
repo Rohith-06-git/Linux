@@ -153,3 +153,27 @@ The basic structure is:
 
 ```bash
 chmod [who][operation][permission] file
+
+## Numeric Permissions with chmod
+
+Linux permissions can also be represented using numbers.
+
+### Permission Values
+
+- `r` — read — `4`
+- `w` — write — `2`
+- `x` — execute — `1`
+- No permission — `0`
+
+The values are added together to create a permission number.
+
+### Examples
+
+```text
+r-- = 4
+-w- = 2
+--x = 1
+
+rw- = 4 + 2 = 6
+r-x = 4 + 1 = 5
+rwx = 4 + 2 + 1 = 7
