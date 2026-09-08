@@ -228,3 +228,23 @@ The `kill` command sends a signal to a process using its PID.
 
 ```bash
 kill PID
+
+## Services and systemctl
+
+Linux services are background processes that provide specific functionality, such as web servers, networking, and other system tasks.
+
+`systemctl` is used to manage and control services that are managed by `systemd`.
+
+systemctl is used to manage Linux services.
+status — checks the current service status.
+start — starts a service.
+stop — stops a service.
+restart — restarts a service.
+reload — reloads configuration without a full restart.
+enable — enables automatic startup at boot.
+disable — disables automatic startup at boot.
+
+### Checking Service Status
+
+```bash
+sudo systemctl status nginx
