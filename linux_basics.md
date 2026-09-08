@@ -177,3 +177,23 @@ r-- = 4
 rw- = 4 + 2 = 6
 r-x = 4 + 1 = 5
 rwx = 4 + 2 + 1 = 7
+
+## Processes
+
+A process is a running instance of a program.
+
+Whenever we start a program or execute a command, Linux creates a process to perform that task.
+
+Each process has a unique Process ID (PID).
+
+Linux manages processes by allocating CPU, memory, and other system resources to them.
+
+Processes can run in the foreground or background.
+
+### Key Learning
+
+- A process is a running program.
+- Each process has a unique PID.
+- Linux manages processes and their resource usage.
+- Multiple processes can run at the same time.
+- Processes can be monitored and managed using Linux commands.
