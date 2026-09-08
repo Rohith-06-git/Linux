@@ -215,3 +215,16 @@ sudo apt install htop
 we can get process ID by giving "&"
 for ex : python3 main.py & 
 gives its process ID
+
+## Killing Processes
+
+Linux provides commands to terminate running processes. The main commands used for this are `kill`, `kill -9`, and `pkill`.
+
+Every process has a unique Process ID (PID).
+
+### `kill`
+
+The `kill` command sends a signal to a process using its PID.
+
+```bash
+kill PID
