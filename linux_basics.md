@@ -212,3 +212,6 @@ top
 htop
 sudo apt install htop
 
+we can get process ID by giving "&"
+for ex : python3 main.py & 
+gives its process ID
