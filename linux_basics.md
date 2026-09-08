@@ -197,3 +197,18 @@ Processes can run in the foreground or background.
 - Linux manages processes and their resource usage.
 - Multiple processes can run at the same time.
 - Processes can be monitored and managed using Linux commands.
+
+## Process Monitoring Commands
+
+### `ps`
+
+The `ps` command displays information about currently running processes.
+
+```bash
+ps
+ps aux
+ps aux | grep something
+top
+htop
+sudo apt install htop
+
