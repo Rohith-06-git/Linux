@@ -265,3 +265,22 @@ printenv
 echo $HOME
 echo $USER
 echo $SHELL
+
+## Shell Variables vs Environment Variables
+
+A shell variable exists only in the current shell.
+
+An environment variable is a variable that is exported and can also be accessed by child processes.
+
+### Creating a Shell Variable
+
+```bash
+MY_NAME="Rohith"
+
+echo $MY_NAME
+
+### Creating an Environment Variable
+export MY_NAME="Rohith"
+
+### Deleting a Variable
+unset MY_VAR
