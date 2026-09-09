@@ -302,3 +302,12 @@ For example, if `rohith.sh` is inside:
 
 ```text
 /home/vboxuser/linux_practice/devs
+
+### `.bashrc` and Persistent PATH
+
+Changes made using `export` normally affect only the current shell session.
+
+For example:
+
+```bash
+export PATH=$PATH:/home/vboxuser/linux_practice/devs
