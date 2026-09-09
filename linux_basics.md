@@ -284,3 +284,12 @@ export MY_NAME="Rohith"
 
 ### Deleting a Variable
 unset MY_VAR
+
+## PATH Environment Variable
+
+`PATH` is an environment variable that contains a list of directories where the shell searches for executable commands.
+
+View the PATH using:
+
+```bash
+echo $PATH
