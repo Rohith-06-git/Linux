@@ -293,3 +293,12 @@ View the PATH using:
 
 ```bash
 echo $PATH
+
+### Adding a Directory to PATH
+
+If we add the directory containing an executable script to `PATH`, we can run the script by its name without using `./`.
+
+For example, if `rohith.sh` is inside:
+
+```text
+/home/vboxuser/linux_practice/devs
