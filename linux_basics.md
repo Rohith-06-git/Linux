@@ -248,3 +248,20 @@ disable — disables automatic startup at boot.
 
 ```bash
 sudo systemctl status nginx
+
+## Environment Variables
+
+Environment variables are variables provided by the operating system and shell that store information used by programs and processes.
+
+They are commonly used to store configuration values and information such as the current user, home directory, shell, and executable search paths.
+
+### Viewing Environment Variables
+
+To display all environment variables:
+
+```bash
+printenv
+
+echo $HOME
+echo $USER
+echo $SHELL
