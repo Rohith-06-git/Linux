@@ -311,3 +311,18 @@ For example:
 
 ```bash
 export PATH=$PATH:/home/vboxuser/linux_practice/devs
+
+## Archiving
+
+Archiving means combining multiple files and directories into a single archive file.
+
+Archiving is useful for organizing, transferring, and backing up files.
+
+### `tar`
+
+`tar` is commonly used to create, view, and extract archives.
+
+### Creating an Archive
+
+```bash
+tar -cvf backup.tar file1.txt file2.txt
