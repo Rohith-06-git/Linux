@@ -330,6 +330,27 @@ tar -cvf backup.tar file1.txt file2.txt
 ### tar commands
 
 tar can combine multiple files/directories into one archive.
-tar -c creates an archive.
-tar -t lists its contents.
-tar -x extracts an archive.
+c creates an archive.
+t lists archive contents.
+x extracts an archive.
+v displays the files being processed.
+f specifies the archive filename.
+
+### Extracting an Archive
+
+```bash
+tar -xvf backup.tar
+
+### Deleting Files and Directories
+
+#rm is used to remove files.
+rm file.txt
+
+#rm -r removes directories recursively, including their contents.
+rm -r myfolder/
+
+#rm -f forces removal without prompting.
+rm -f file.txt
+
+#rm -rf combines recursive and force removal.
+rm -rf myfolder/
