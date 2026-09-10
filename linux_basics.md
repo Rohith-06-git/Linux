@@ -354,3 +354,17 @@ rm -f file.txt
 
 #rm -rf combines recursive and force removal.
 rm -rf myfolder/
+
+## Gzip Compression
+
+`gzip` is used to compress files and reduce their size.
+
+### Compressing a File
+
+```bash
+gzip file.txt
+
+gzip — compresses a file
+gunzip — decompresses a .gz file
+tar — creates archives
+tar.gz — commonly used for an archive that is also compressed
