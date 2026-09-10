@@ -368,3 +368,21 @@ gzip — compresses a file
 gunzip — decompresses a .gz file
 tar — creates archives
 tar.gz — commonly used for an archive that is also compressed
+
+### ZIP Compression
+
+`zip` is used to compress and package files or directories into a `.zip` file.
+
+### Creating a ZIP File
+
+```bash
+zip backup.zip file1.txt file2.txt
+
+#Zipping a Directory
+zip -r backup.zip myfolder/
+
+#Viewing ZIP Contents
+unzip -l backup.zip
+
+#Extracting a ZIP File
+unzip backup.zip
