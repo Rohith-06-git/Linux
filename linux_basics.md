@@ -326,3 +326,10 @@ Archiving is useful for organizing, transferring, and backing up files.
 
 ```bash
 tar -cvf backup.tar file1.txt file2.txt
+
+### tar commands
+
+tar can combine multiple files/directories into one archive.
+tar -c creates an archive.
+tar -t lists its contents.
+tar -x extracts an archive.
