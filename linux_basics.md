@@ -386,3 +386,14 @@ unzip -l backup.zip
 
 #Extracting a ZIP File
 unzip backup.zip
+
+## Cron Jobs
+
+A cron job is a command or script that Linux automatically runs at a scheduled time.
+
+Cron jobs are useful for automating recurring tasks such as backups, cleanup tasks, and scheduled scripts.
+
+### Cron Commands
+
+```bash
+crontab -e
