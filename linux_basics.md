@@ -391,9 +391,22 @@ unzip backup.zip
 
 A cron job is a command or script that Linux automatically runs at a scheduled time.
 
-Cron jobs are useful for automating recurring tasks such as backups, cleanup tasks, and scheduled scripts.
+Cron is useful for automating recurring tasks such as backups, cleanup tasks, and scheduled scripts.
 
-### Cron Commands
+### Crontab Commands
+
+crontab -e is used to create and edit scheduled jobs.
+crontab -l is used to view scheduled jobs.
 
 ```bash
 crontab -e
+
+### cron Syntax
+
+* * * * * command
+│ │ │ │ │
+│ │ │ │ └── Day of week (0-6)
+│ │ │ └──── Month (1-12)
+│ │ └────── Day of month (1-31)
+│ └──────── Hour (0-23)
+└────────── Minute (0-59)
