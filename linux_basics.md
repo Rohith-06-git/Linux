@@ -410,3 +410,29 @@ crontab -e
 │ │ └────── Day of month (1-31)
 │ └──────── Hour (0-23)
 └────────── Minute (0-59)
+
+## Understanding the Linux Filesystem
+
+Linux uses a single filesystem hierarchy that starts from `/`, called the root directory.
+
+### Important Directories
+
+- `/` — root of the entire filesystem
+- `/home` — home directories of normal users
+- `/root` — home directory of the root user
+- `/etc` — system configuration files
+- `/var` — variable data such as logs
+- `/tmp` — temporary files
+- `/usr` — user programs and utilities
+- `/dev` — device files
+- `/proc` — information about processes and the kernel
+- `/boot` — files required for booting Linux
+- `/opt` — optional software
+
+### Exploring the Filesystem
+
+```bash
+cd /
+ls
+ls -l
+ls -a
