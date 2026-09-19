@@ -552,3 +552,18 @@ ls -l
 
 ls -a
 
+## Nginx
+
+Nginx is a web server commonly used to handle HTTP requests and serve web applications.
+
+It can also work as a reverse proxy between clients and backend applications.
+
+### Nginx Service Management
+
+Nginx can be managed using `systemctl`.
+
+```bash
+sudo systemctl start nginx
+sudo systemctl stop nginx
+sudo systemctl restart nginx
+sudo systemctl status nginx
