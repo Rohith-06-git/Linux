@@ -563,7 +563,9 @@ It can also work as a reverse proxy between clients and backend applications.
 Nginx can be managed using `systemctl`.
 
 ```bash
+sudo systemctl status nginx
 sudo systemctl start nginx
 sudo systemctl stop nginx
 sudo systemctl restart nginx
-sudo systemctl status nginx
+sudo systemctl reload nginx
+sudo nginx -t
