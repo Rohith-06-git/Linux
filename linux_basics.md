@@ -569,3 +569,27 @@ sudo systemctl stop nginx
 sudo systemctl restart nginx
 sudo systemctl reload nginx
 sudo nginx -t
+
+## FileZilla
+
+FileZilla is a file transfer client used to transfer files between a local computer and a remote server.
+
+It can use SFTP to securely transfer files over SSH.
+
+### SFTP
+
+SFTP allows files to be transferred securely between a local system and a remote Linux server.
+
+Common SFTP connection details include:
+
+- Host — server IP address
+- Protocol — SFTP
+- Port — 22
+- Username — Linux user
+- Password — user's password
+
+### Key Learning
+
+- FileZilla can be used to transfer files between local and remote systems.
+- SFTP provides secure file transfer over SSH.
+- SFTP commonly uses port 22.
