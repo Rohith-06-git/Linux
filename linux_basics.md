@@ -593,3 +593,7 @@ Common SFTP connection details include:
 - FileZilla can be used to transfer files between local and remote systems.
 - SFTP provides secure file transfer over SSH.
 - SFTP commonly uses port 22.
+
+## Linux Revision
+
+Continuing to revise Linux fundamentals while preparing for exams.
