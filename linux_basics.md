@@ -594,6 +594,11 @@ Common SFTP connection details include:
 - SFTP provides secure file transfer over SSH.
 - SFTP commonly uses port 22.
 
-## Linux Revision
+## Searching with grep
 
-Continuing to revise Linux fundamentals while preparing for exams.
+`grep` is used to search for specific text inside files.
+
+### Basic Usage
+
+```bash
+grep "Hello" file.txt
