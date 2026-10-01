@@ -602,3 +602,25 @@ Common SFTP connection details include:
 
 ```bash
 grep "Hello" file.txt  
+
+grep -i "hello" file.txt
+
+grep -r "Hello" myfolder/
+
+## Hosting a Web Page with Nginx
+
+I practiced hosting a web page using Nginx.
+
+The Nginx web server was accessed through:
+
+```text
+http://localhost
+
+## Flow 
+Browser
+   ↓
+localhost:80
+   ↓
+Nginx
+   ↓
+HTML webpage
